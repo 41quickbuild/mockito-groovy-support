@@ -15,8 +15,8 @@
     </organization>
     <scm>
         <url>https://github.com/41quickbuild/mockito-groovy-support</url>
-        <connection>scm:git:git@github.com:41quickbuild/mockito-groovy-support.git</connection>
-        <developerConnection>scm:git:git@github.com:41quickbuild/mockito-groovy-support.git</developerConnection>
+        <connection>scm:git:https://github.com/41quickbuild/mockito-groovy-support.git</connection>
+        <developerConnection>scm:git:https://github.com/41quickbuild/mockito-groovy-support.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
