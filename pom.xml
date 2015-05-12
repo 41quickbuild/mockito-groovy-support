@@ -47,6 +47,7 @@
 
     <properties>
         <groovy-version>1.8.6</groovy-version>
+        <powermock-version>1.6.2</powermock-version>
     </properties>
 
     <distributionManagement>
@@ -129,6 +130,11 @@
             <artifactId>mockito-core</artifactId>
             <version>1.10.16</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito</artifactId>
+            <version>1.6.2</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

@@ -40,9 +40,13 @@ public class GroovyCglibMockMaker implements MockMaker {
         }
         Factory factory = (Factory) mock;
         Callback callback = factory.getCallback(0);
-        if (!(callback instanceof MethodInterceptorFilter)) {
-            return null;
+        if (callback instanceof org.powermock.api.mockito.repackaged.MethodInterceptorFilter) {
+            return ((org.powermock.api.mockito.repackaged.MethodInterceptorFilter)callback).getHandler();
         }
-        return ((MethodInterceptorFilter) callback).getHandler();
+
+        if ((callback instanceof MethodInterceptorFilter)) {
+            return ((MethodInterceptorFilter) callback).getHandler();
+        }
+        return null;
     }
 }
