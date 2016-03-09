@@ -14,9 +14,9 @@
         <url>http://www.cyrusinnovation.com/</url>
     </organization>
     <scm>
-        <developerConnection>scm:git:ssh://github.com/41quickbuild/mockito-groovy-support.git</developerConnection>
-        <connection>scm:git:ssh://github.com/41quickbuild/mockito-groovy-support.git</connection>
-        <url>https://github.com/41quickbuild/mockito-groovy-support</url>
+        <developerConnection>scm:git:ssh://github.com/the41/mockito-groovy-support.git</developerConnection>
+        <connection>scm:git:ssh://github.com/the41/mockito-groovy-support.git</connection>
+        <url>https://github.com/the41/mockito-groovy-support</url>
         <tag>HEAD</tag>
     </scm>
 
